@@ -1,0 +1,12 @@
+{
+  "name": "Email Writer Assitant",
+  "description": "AI-powered email reply generator",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://localhost:8080/*",
+                        "*://mail.google.com/*"],
+  "action": {
+    "default_title": "Email Writer Assistant"
+  }
+}
