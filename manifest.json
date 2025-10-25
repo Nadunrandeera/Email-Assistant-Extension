@@ -7,7 +7,7 @@
   "host_permissions": ["https://localhost:8080/*", "*://mail.google.com/*"],
   "content_scripts": [
     {
-      "js": ["content.js"],
+      "js": ["content.js"], 
       "matches": ["*://mail.google.com/*"],
       "css": ["content.css"],
       "run_at": "document_end"
